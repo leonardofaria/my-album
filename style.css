@@ -1,0 +1,84 @@
+@import 'reset.css';
+
+html {
+	background: #222;
+}
+
+body {
+	background: #eee;
+	font-family: Helvetica, Arial;
+	width: 660px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+header {
+	padding: 0;
+}
+
+header h1 {
+	background: #FC7600;
+	color: #fff;
+	font-size: 1.6em;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+header li a {
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+
+nav {
+	clear: both;
+	display: block;
+	text-align: center;
+}
+nav a {
+	border: 1px solid #FC7600;
+	color: #000;
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#content {
+	clear: both;
+	margin: 10px 0;
+}
+#content .gallery_img {
+	display: block;
+	float: left;
+	height: 180px;
+	line-height: 180px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 180px;
+}
+#content .gallery_img:hover {
+	background: #FC7600;
+}
+#content .gallery_img img {
+	vertical-align: middle;
+}
+#content #result {
+	margin: 10px;
+}
+#content #result img {
+	max-width: 640px;
+	width: expression(this.width > 640 ? 640: true);
+}
+footer {
+	background: #222;
+	clear: both;
+	display: block;
+	color: #FC7600;
+	font-size: 0.8em;
+	padding: 10px 0;
+	text-align: right;
+}
+footer a {
+	color: #FC7600;
+	font-weight: bold;
+}
